@@ -1,0 +1,40 @@
+#survey-good {
+    border: 2px solid green;
+    background-color: #009c00;
+    color: white;
+    border-radius: 3px;
+    margin: 10px 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+  	cursor: pointer;
+}
+
+#survey-good:hover {
+    background-color: #009c00e0;
+}
+
+#survey-bad {
+    border: 2px solid red;
+    background-color: #e60000;
+    color: white;
+    border-radius: 3px;
+    margin: 10px 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+  	cursor: pointer;
+}
+
+#survey-bad:hover {
+    background-color: #e60000e0;
+}
+
+#survey-subject {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 40ch;
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: bottom;
+}

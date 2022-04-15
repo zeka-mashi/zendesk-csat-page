@@ -1,0 +1,21 @@
+<div class="survey-wrapper center" style="text-align:center;width:80%;">
+    <h1 id="survey-header">[Your Company Name]'s Support Survey</h1>
+    <div id="survey" style="display:none;">
+        <h3 style="overflow:hidden;text-overflow:ellipsis;">Ticket #<span id="survey-ticket-id"></span> | Request: <span
+                id="survey-subject"></span></h3>
+        <p>Hello and thank you for reaching out to [Your Company Name]'s customer support team regarding your
+            request.<br><br>We
+            appreciate your patience as we worked to resolve your ticket.</p>
+        <p>We'd love to hear what you think of our customer support.<br>Please take a moment to answer one simple
+            question by clicking either buttons below. Afterward, feel free to include any comments.</p>
+        <p><b>How would you rate the quality of support you received for this ticket?</b></p>
+        <input type="button" onclick="javascript:void(0);" id="survey-good" value="Good" />
+        <input type="button" onclick="javascript:void(0);" id="survey-bad" value="Bad" />
+    </div>
+    <div id="survey-error" style="display:none;">
+        <h4><b>An error occurred while loading this survey.</b><br>The survey link may be broken or it may have
+            expired.<br><br><b>You will be redirected to the <a
+                    href="https://your-company-hc.zendesk.com/hc">homepage</a> in 5
+                seconds.</b></h4>
+    </div>
+</div>
