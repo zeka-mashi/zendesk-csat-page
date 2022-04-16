@@ -48,6 +48,7 @@ if (document.URL.indexOf("/p/survey") >= 0) {
     }
     document.getElementById("survey-good").setAttribute('onclick', "location.href='" + decodeURIComponent(getAllUrlParams().url) + "&intention=16';");
     document.getElementById("survey-bad").setAttribute('onclick', "location.href='" + decodeURIComponent(getAllUrlParams().url) + "&intention=4';");
+    // add additional below
 }
 
 if (document.URL.indexOf("/p/survey") >= 0) {
