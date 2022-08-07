@@ -14,7 +14,7 @@ The false negatives and false positives created inaccurate reports of ticket rat
 
 ## Demo
 
-Check out a demo of the survey page [here](https://zeka-mashi.github.io/zendesk-csat-page/index.html?url_str=https://your-company-hc.zendesk.com/requests/12345/satisfaction/new/a1b2c3d4e5f6g7h8i9j0?locale=1&zd_subj_str=Test%20Ticket%20for%20csat%20survey&zd_id_str=12345)
+Check out a demo of the survey page [here](https://zeka-mashi.github.io/zendesk-csat-page/demo/index.html?url_str=https://your-company-hc.zendesk.com/requests/12345/satisfaction/new/a1b2c3d4e5f6g7h8i9j0?locale=1&zd_subj_str=Test%20Ticket%20for%20csat%20survey&zd_id_str=12345).
 
 ## Setup
 
